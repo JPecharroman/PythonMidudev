@@ -140,3 +140,11 @@ elif edad > 65:
     print("Puedes trabajar, pero deberias jubilarte")
 else:
     print("No puedes trabajar")
+
+# Condicion ternaria
+# [valor si se cumple la condicion] if [condicion] else [valor si no se cumple la condicion]
+# Es una forma de simplificar el condicional if, es diferente a lo que estamos acostumbrados y puede ser confusa, por lo que no es muy recomendable usarla
+edad = 18
+print(f"Tienes {edad} años y puedes votar") if edad >= 18 else print(f"Tienes {edad} años y no puedes votar")
+edad =   17
+print(f"Tienes {edad} años y puedes votar") if edad >= 18 else print(f"Tienes {edad} años y no puedes votar")
