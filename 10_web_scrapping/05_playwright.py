@@ -20,6 +20,13 @@
 # Despues debemos instalar el modulo de pytest para correr los tests
 """ pip3 install playwright pytest-playwright """
 
+# Para hacer los tests, desde la terminal usamos pytest
+""" pytest archivo.py -v 
+
+    -v es para ver mas detalles
+    
+"""
+
 # Cargamos el ejemplo que viene en la pagina de referencia de Playwright https://playwright.dev/python/docs/intro
 # test_example.py
 
