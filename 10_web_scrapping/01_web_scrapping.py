@@ -7,20 +7,43 @@
 
 # Primera opcion, con requests
 # Ventajas: 
-# - Es muy rapido y sencillo.
+    - Es muy rapido y sencillo.
+    - No funciona con SPAs.
 # Desventajas: 
-# - No se salta paywalls y captchas.
-# - No es muy robusto y no es muy seguro.
-# - No puedes navegar por la web.
-# - Muy manual, necesitas expresiones regulares para extraer la informacion.
+    - No se salta paywalls y captchas.
+    - No es muy robusto y no es muy seguro.
+    - No puedes navegar por la web.
+    - Muy manual, necesitas expresiones regulares para extraer la informacion.
+    - No funciona con SPAs. 
+    (SPA es Single Page Application, o aplicacion de pagina única
+        es una aplicación web ó un sitio web que cabe en una sola página con el propósito de dar una experiencia más fluida a los usuarios, como si fuera una aplicación 
+        de escritorio. En un SPA todos los códigos de HTML, JavaScript, y CSS se cargan una sola vez,[1] los recursos necesarios se cargan dinámicamente cuando lo 
+        requiera la página, normalmente como respuesta a las acciones del usuario.
+    
+        Ref: https://es.wikipedia.org/wiki/Single_page_application
+    )
 
 # Segunda opcion, con BeautifulSoup
-# Ventajas, es muy robusto y es muy seguro.
-# Desventajas, es mas lento y mas complejo.
+# Ventajas,
+    - Rapido, 
+    - Sencillo de implementar, 
+    - Sencillo encontrar elemetos, atributos y filtrar por ellos.
+# Desventajas,
+    - No puedes saltarte los paywalls y captchas, 
+    - Tampoco puedes navegar por la web, 
+    - No funciona con SPAs.
 
-# Tercera opcion, con Selenium
-# Ventajas, es muy robusto y es muy seguro.
-# Desventajas, es mas lento y mas complejo.
+# Tercera opcion, con Playwright
+# Ventajas, 
+    - Simular un usuario real
+    - Puedes saltarte paywalls y captchas
+    - Puedes navegar por la web
+    - Utilidades como capturas de pantalla, cookies, etc.
+    - Cargar el JS de la pagina
+    - Funciona con SPAs. 
+# Desventajas, 
+    - Es mas lento y mas costoso.
+    - Mas complejo.
 
 """
 
